@@ -3,7 +3,7 @@ const Discord = require('discord.js);
                         
 module.exports = {
   name: "uptime",
-  description: "Check the uptime"
+  description: "Check the uptime",
   execute(client, message, args) {
     let seconds = Math.floor(client.uptime / 1000);
     let minutes = Math.floor(seconds / 60);
